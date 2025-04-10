@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    transition: 0.1s ease-in-out;
+    background-color: var(--black);
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.header.sticky {
+    background-color: var(--black);
+    transition: 0.1s ease-in-out;
+}
+
+.header-menu {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-menu a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.1s ease-in-out;
+}
+
+.header-menu a:hover {
+    background-color: var(--Platinum);
+    color: var(--black);
+    transition: 0.1s ease-in-out;
+}
+
+.header h1 a:hover {
+    color: var(--Platinum);
+    transition: 0.1s ease-in-out;
+}

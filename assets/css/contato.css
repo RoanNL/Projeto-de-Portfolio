@@ -1,0 +1,107 @@
+.contato {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--Platinum);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.contato-container p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contato-container-texto {
+    display: flex;
+    gap: 350px;
+    margin-left: 50px;
+}
+
+.contato-img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.contato-img img {
+    max-width: 700px;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+.contato-links {
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.contato-links div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.contato-links div:hover {
+    background-color: var(--OrangeWeb);
+}
+
+.contato-links img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+.contato-links a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.contato-links a:hover {
+    color: var(--OrangeWeb);
+}
+
+.contato-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 250px;
+}
+
+.contato-links-container h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contato-links-container p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 60px;
+}

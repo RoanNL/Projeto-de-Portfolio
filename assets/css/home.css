@@ -1,0 +1,97 @@
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--OrangeWeb);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.home-container-total {
+    display: flex;
+    width: 100vw;
+}
+
+.home-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.home-container h2 {
+    font-size: 40px;
+    font-weight: 600;   
+}
+
+.home-container p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.home-text{
+    display: block;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align:justify;
+    text-wrap: wrap;
+}
+
+.home-container p{
+    margin-top: 60px;
+}
+
+.home-container-links {
+    display: flex;
+    gap: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 400px;
+}
+
+.home-container-links div {
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    background-color: var(--black);
+}
+
+.home-container-links div:hover {
+    background-color: var(--Platinum);
+    color: var(--black);
+    transition: 0.3s ease-in-out;
+}
+
+.home-container a {
+    color: var(--Platinum);
+}
+
+.home-container a:hover {
+    color: var(--OrangeWeb);
+}
+
+.home-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    padding-right: 50px;
+    
+}
+
+.home-img img {
+    max-width: 600px;
+    height: auto;
+    border-radius: 30%;
+    border: var(--black) solid 1px;
+}
